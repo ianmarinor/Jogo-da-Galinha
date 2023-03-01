@@ -1,7 +1,9 @@
 #desktop,#mobile,#reward-site{
 
     height: 50%;
+    width: 50%;
     align-self: center;
+    justify-self: center;
     border: none
     
 }

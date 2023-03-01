@@ -99,8 +99,8 @@ function raro() {
 //PAGINA SECRETA
 ////////
 
-let numPagMobile = 15
-let numPagDesktop = 31
+let numPagMobile = 30
+let numPagDesktop = 60
 
 let goToReward = ()=> window.open('reward.html', '_self')
 
