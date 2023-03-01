@@ -5,6 +5,7 @@
     font-family: 'Quicksand', sans-serif;
     user-select: none;
     margin: 0;
+    text-decoration: none;
     
 }
 
@@ -42,7 +43,7 @@ main{
     grid-template-rows: 0.2fr 1fr 0.2fr;
     grid-template-areas: 
     "nav nav nav"
-    "side frame ."
+    "side frame direito"
     ". button .";
 
     gap: 10px;

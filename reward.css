@@ -1,0 +1,32 @@
+#desktop,#mobile,#reward-site{
+
+    height: 50%;
+    align-self: center;
+    border: none
+    
+}
+
+#desktop:hover ,#mobile:hover,#reward-site:hover{
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+
+#desktop{
+    
+    background-color: aquamarine;
+    
+    grid-area: side;
+}
+
+#mobile{
+    grid-area: frame;
+
+    background-color: bisque;
+
+}
+#reward-site{
+    grid-area: direito;
+
+    background-color: rgb(255, 196, 250);
+}

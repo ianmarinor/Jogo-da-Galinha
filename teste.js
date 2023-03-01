@@ -1,5 +1,11 @@
 let click = 0
 
+
+
+
+
+
+
 function start() {
 
 
@@ -89,3 +95,31 @@ function raro() {
 
 
 
+////////
+//PAGINA SECRETA
+////////
+
+let numPagMobile = 15
+let numPagDesktop = 31
+
+let goToReward = ()=> window.open('reward.html', '_self')
+
+let rewardMobile = ()=> {
+    for (let i = 0; i < numPagMobile; i++) {
+        window.open("https://www.bing.com/search?q=" + i);
+        console.log("abri");
+        
+        
+      }
+}
+
+let rewardDesktop = ()=> {
+    for (let i = 0; i < numPagDesktop; i++) {
+        window.open("https://www.bing.com/search?q=" + i);
+        console.log("abri");
+        
+        
+      }
+}
+
+let rewardPage = () => window.open("https://rewards.bing.com/")
